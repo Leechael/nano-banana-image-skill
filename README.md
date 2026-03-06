@@ -68,6 +68,9 @@ pbpaste | nano-banana -s 2K -o result
 | `-d, --dir` | current directory | Output directory |
 | `-r, --ref` | - | Reference image (can be used multiple times) |
 | `-t, --transparent` | - | Green screen background removal (pure Go, no external tools) |
+| `--seed` | random | Fixed seed for reproducible generation |
+| `--person` | `ALL` | Person generation: `ALL`, `ADULT`, `NONE` |
+| `--thinking` | model default | Thinking level: `minimal`, `low`, `medium`, `high` |
 | `--api-key` | - | Gemini API key (highest priority) |
 | `--costs` | - | Show cost summary |
 | `--json` | - | JSON output to stdout (script-friendly) |
